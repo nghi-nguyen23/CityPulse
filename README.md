@@ -4,30 +4,37 @@ Citypulse is a project utilizing open-source data to analyze inequality among di
 
 # Project Overview
 
-Goal:
+# Goal:
+
 To compare how quality-of-life indicators differ across different boroughs and neighborhoods. CityPulse can help residents, policymakers, and public service agencies answer key questions about how their borough is evolving, such as:
 - Is my neighborhood becoming safer or more stressed over time?
 - Where is housing pressure (rent burden and evictions) increasing the most?
 - How does transit experience differ across boroughs?
 
 
-Tech Stack:
-Component	| Technology
-Data Sources	| NYC Open Data
-Cleaning & Prep	| Python, Pandas, Jupyter Notebook
-Visualization	| Tableau Public
-Storage	| Google Drive
+# Tech Stack:
+
+| Component          | Technology                          |
+|-------------------|--------------------------------------|
+| Data Sources       | NYC Open Data                       |
+| Cleaning & Prep    | Python, Pandas, Jupyter Notebook     |
+| Visualization      | Tableau Public                       |
+| Storage            | Google Drive                          |
 
 
-Dataset Summary
-Dataset	| Description
-NYC Shooting Incident Data (2025)	| Daily shootings with borough, time, location type
-Rent Burden | (%) by Neighborhood	Share of households spending >30% income on rent
-Eviction Change 2023–2025	| Year-over-year changes in eviction filings
-Subway Satisfaction Survey	| Rider perceptions of affordability & reliability
+
+## 📂 Dataset Summary
+
+| **Dataset**                     | **Description**                                                         |
+|---------------------------------|-------------------------------------------------------------------------|
+| NYC Shooting Incident Data (2025) | Daily shootings with borough, time, and location type                    |
+| Rent Burden (%) by Neighborhood  | Percentage of households spending >30% of income on rent                |
+| Eviction Change (2023–2025)      | Year-over-year changes in eviction filings across NYC boroughs          |
+| Subway Satisfaction Survey        | Rider perceptions of subway affordability, delays, and reliability      |
 
 
-How CityPulse Works
+# How CityPulse Works
+
 1. Data Collection
 - All raw datasets pulled from NYC Open Data.
 
@@ -44,7 +51,7 @@ How CityPulse Works
 A clean interface showing how each borough differs in crime, housing, and transit patterns.
 
 
-📎 Authors
+# Authors
 
 Team CityPulse — DS3 / UCSD
 @carstenpetey @nghi-nguyen23 @cindysgit
